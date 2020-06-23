@@ -2,6 +2,7 @@
   "name": "react-gh-pages",
   "version": "0.1.0",
   "private": true,
+"homepage":"http://thotasahithi.github.io/task",
   "homepage": "http://thotasahithi.github.io/react-gh-pages",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -11,6 +12,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
